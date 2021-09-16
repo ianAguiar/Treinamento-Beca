@@ -1,0 +1,4 @@
+Step;Description;Expected Result;Obtained Result;Duration;Evidence
+1;Navigate to url: "https://www.buscape.com.br/";The page was successfully loaded;The page was successfully loaded;00:00:25;evidence/001_navigate.png
+2;Click in 'search';The object was successfully clicked;The object was not successfully clicked;00:00:10;evidence/002_click.png
+3;Do the action: deleteCookies(Action not mapped, call one of our test analysts to increase this library :) );The action is successfully made;The action could not be executed;00:00:00;N/A

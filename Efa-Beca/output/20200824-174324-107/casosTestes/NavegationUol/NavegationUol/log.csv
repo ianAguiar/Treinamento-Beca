@@ -1,0 +1,3 @@
+Step;Description;Expected Result;Obtained Result;Duration;Evidence
+1;Navigate to url: "https://www.uol.com.br/";The page was successfully loaded;The page was successfully loaded;00:00:26;evidence/001_navigate.png
+2;Click in '//span[@class='HU_menu__title' and text()='Esporte']';The object was successfully clicked;The object was successfully clicked;00:00:02;evidence/002_click.png

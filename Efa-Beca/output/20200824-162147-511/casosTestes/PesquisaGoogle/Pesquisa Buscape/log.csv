@@ -1,0 +1,4 @@
+Step;Description;Expected Result;Obtained Result;Duration;Evidence
+1;Navigate to url: "https://www.buscape.com.br/";The page was successfully loaded;The page was successfully loaded;00:00:24;evidence/001_navigate.png
+2;Type 'Geladeira' in the field '//input[@type='search']';The field was successfully filled;The field was successfully filled;00:00:00;evidence/002_sendKeys.png
+3;Click in '//button[@class='search-bar__submit-button']';The object was successfully clicked;The object was successfully clicked;00:00:02;evidence/003_click.png

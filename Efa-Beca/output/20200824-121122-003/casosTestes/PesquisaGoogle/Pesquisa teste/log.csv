@@ -1,0 +1,4 @@
+Step;Description;Expected Result;Obtained Result;Duration;Evidence
+1;Navigate to url: "https://www.google.com";The page was successfully loaded;The page was successfully loaded;00:00:05;evidence/001_navigate.png
+2;Type 'everis?' in the field 'q';The field was successfully filled;The field was successfully filled;00:00:03;evidence/002_sendKeys.png
+3;Get the Text from 'result-stats';The text is successfully retrieved;The text is successfully retrieved;00:00:00;evidence/003_getText.png

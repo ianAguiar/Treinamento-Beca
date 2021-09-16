@@ -1,0 +1,6 @@
+Step;Description;Expected Result;Obtained Result;Duration;Evidence
+1;Navigate to url: "https://www.google.com";The page was successfully loaded;The page was successfully loaded;00:00:22;evidence/001_navigate.png
+2;Type 'Artificial intelligence' in the field 'q';The field was successfully filled;The field was successfully filled;00:00:01;evidence/002_sendKeys.png
+3;Do the action: clear(Action not mapped, call one of our test analysts to increase this library :) );The action is successfully made;The action is successfully made;00:00:00;evidence/003_clear.png
+4;Type 'Behaviour Driven Development' in the field 'q';The field was successfully filled;The field was successfully filled;00:00:01;evidence/004_sendKeys.png
+5;Get the Text from 'result-stats';The text is successfully retrieved;The text is successfully retrieved;00:00:00;evidence/005_getText.png
